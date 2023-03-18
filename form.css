@@ -1,0 +1,63 @@
+body {
+	font-family: Arial, sans-serif;
+	background-color: rgb(175, 228, 231);
+}
+
+h1 {
+	text-align: center;
+}
+
+form {
+	width: 80%;
+	margin: auto;
+	background-color:rgb(130, 201, 171);
+	padding: 20px;
+	border-radius: 10px;
+	box-shadow: 0px 0px 10px rgb(1, 20, 14);
+}
+
+label {
+	display: block;
+	margin-bottom: 5px;
+	font-weight: bold;
+}
+
+input[type="text"],
+input[type="email"],
+input[type="date"],
+input[type="number"],
+textarea {
+	width: 100%;
+	padding: 10px;
+	margin-bottom: 20px;
+	border: 2px solid black;
+	border-radius: 5px;
+	box-sizing: border-box;
+}
+
+select {
+	width: 100%;
+	padding: 10px;
+	margin-bottom: 20px;
+	border: 2px solid black;
+	border-radius: 5px;
+	box-sizing: border-box;
+}
+
+input[type="submit"],
+button {
+	background-color: rgb(14, 92, 14);
+	color: rgb(245, 243, 243);
+	padding: 10px 20px;
+	border: none;
+	border-radius: 5px;
+	cursor: pointer;
+}
+
+input[type="submit"]:hover {
+	background-color: rgb(70, 158, 70);
+}
+.next
+{
+    margin: 30px 0px 0px 450px;
+}

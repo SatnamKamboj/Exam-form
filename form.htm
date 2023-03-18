@@ -1,0 +1,125 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title>Government Exam Form</title>
+    <link rel="stylesheet" href="form.css">
+</head>
+
+<body>
+    <h1>Government Exam Form</h1>
+    <form action="next.html">
+        <label for="firstname">First Name:</label>
+        <input type="text" name="firstname" required>
+        <label for="lastname">Last Name:</label>
+        <input type="text" name="lastname">
+
+        <label for="fathername">Father Name:</label>
+        <input type="text" name="fathername" required>
+        <label for="email">Email:</label>
+        <input type="email" name="email" required>
+        <label for="dob">Date of Birth:</label>
+        <input type="date" name="dob" required>
+
+        <label for="age">Age</label>
+        <input type="number" name="age" required>
+
+        <label for="gender">Gender:</label>
+        <select name="gender" required>
+            <option value="">--Select Gender--</option>
+            <option value="male">Male</option>
+            <option value="female">Female</option>
+            <option value="other">Other</option>
+        </select>
+        <label for="exam">Blood group:</label>
+        <select name="gender" required>
+            <option value="">--Select Blood Group--</option>
+            <option value="">A+</option>
+            <option value="">A-</option>
+            <option value="">O+</option>
+            <option value="">O-</option>
+            <option value="">B+</option>
+            <option value="">B-</option>
+            <option value="">AB+</option>
+            <option value="">AB-</option>
+        </select>
+
+        <label for="address">Address:</label>
+        <textarea name="address"></textarea>
+        <table cellpadding="15" width="100%">
+            <tr>
+                <td>
+                    <label for="city">City:</label>
+                    <select name="center"placeholder="search.." required>
+                        <option value="">--Select center--</option>
+                        <option value="">Gurdaspur</option>
+                        <option value="">Jalandhar</option>
+                        <option value="">TarnTaran</option>
+                        <option value="">Moga</option>
+                        <option value="">Hoshiarpur</option>
+                        <option value="">Faridkot</option>
+                        <option value="">Rupnagar</option>
+                        <option value="">Fatehgarh Sahib</option>
+                        <option value="">Ludhiana</option>
+                        <option value="">Amritsar</option>
+                        <option value="">Bathinda</option>
+                        <option value="">Shahid Bhagat Singh Nagar</option>
+                        <option value="">Mohali</option>
+                        <option value="">Muktsar</option>
+                        <option value="">Kapurthala</option>
+                        <option value="">Patiala</option>
+                        <option value="">Firozpur</option>
+                        <option value="">Sangrur</option>
+                        <option value="">Mansa</option>
+                    </select>
+                </td>
+                <td>
+                    <label for="State">State:</label>
+                    <input type="text" name="state" value="Punjab" required>
+                </td>
+                <td>
+                    <label for="pincode">Pin Code:</label>
+                    <input type="number" name="pincode" required>
+
+                </td>
+            </tr>
+        </table>
+        <label for="phoneno">Phone No</label>
+        <input type="number" name="phoneno" required>
+        <label for="exam">Exam:</label>
+        <input type="text" name="exam" required>
+
+        <label for="center">Exam Center:</label>
+        <select name="center" required>
+            <option value="">--Select center--</option>
+            <option value="">Gurdaspur</option>
+            <option value="">Jalandhar</option>
+            <option value="">TarnTaran</option>
+            <option value="">Moga</option>
+            <option value="">Hoshiarpur</option>
+            <option value="">Faridkot</option>
+            <option value="">Rupnagar</option>
+            <option value="">Fatehgarh Sahib</option>
+            <option value="">Ludhiana</option>
+            <option value="">Amritsar</option>
+            <option value="">Bathinda</option>
+            <option value="">Shahid Bhagat Singh Nagar</option>
+            <option value="">Mohali</option>
+            <option value="">Muktsar</option>
+            <option value="">Kapurthala</option>
+            <option value="">Patiala</option>
+            <option value="">Firozpur</option>
+            <option value="">Sangrur</option>
+            <option value="">Mansa</option>
+        </select>
+        <label for="photo">Photo:</label>
+        <input type="file" name="photo" required accept="image/*">
+        <br>
+        <div class="next">
+            <button>Clear</button>
+            <input type="submit" value="Submit">
+        </div>
+    </form>
+</body>
+
+</html>
